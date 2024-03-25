@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+    font-size: xx-large;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0%;
+    padding-top: 0%;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.main {
+    background-image: url(https://media.istockphoto.com/id/1325065413/video/vegetable-rice-with-green-peas-carrots-tofu-and-mushrooms-on-wooden-background-revolves-and.jpg?s=640x640&k=20&c=RwUw3dHyCxXW0mae3XxmFNcT2NZgDOPlBSf_g1hgStc=);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backface-visibility: visible;
+    border-style: solid;
+    border-color: navajowhite;
+    border-radius: 1%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.gallery {
+    font-variant-caps: titling-caps;
+    font-weight: bold;
+    justify-content: center;
+}
+#header {
+    background-color: burlywood;
+    color: black;
+    border-style: hidden;
+    /* border-width: thin; */
+    border-color: rgb(132, 163, 163);
+    border-radius: 12px;
+    padding: 8px;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.paragraph1 {
+text-decoration: none;    
+/* text-align: justify; */
+/* padding-left: 4px;
+padding-right: 4px; */
+margin-left: 8px;
+margin-right: 8px;
+display: flex;
+text-align: justify;
+box-sizing: border-box;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: medium;
+}
+image {
+    width: 100%;
+    height: auto;
+}
+#popular {
+    background-color: coral;
+    color: black;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 12px;
+}
+.header-images {
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2px;
+    border-style: solid;
+    color: crimson;
+    border-style: hidden;
+    border-radius: 12px;
+}
+.images {
+    display: flex;
+    font-size: x-large;
+    font-style: italic;
+    /* direction: ltr; */
+    justify-items: baseline;
+    justify-content: space-between;
+    row-gap: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* justify-content: baseline; */
+    /* text-justify: newspaper; */
+}
+.images1 {
+    display: flex;
+    font-size: x-large;
+    font-style: italic;
+    /* direction: ltr; */
+    justify-items: baseline;
+    justify-content: space-between;
+    row-gap: 50px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.borders {
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(235, 159, 8);
+    border-radius: 8px;
+}
+.borders:hover {
+    background-color: orange;
+    color: black;
+}
+.sectionheader {
+    border-style: solid;
+    border-radius: 12px;
+    border-width: thick;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+}
+.section-footer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: slateblue;
+    color: black;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 6px;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+.gallery {
+    color: white;
+    text-align: center;
+}
+.galleryp {
+    font-size: smaller;
+    color: black;
+    
+}
+button {
+	font-size: medium;
+	justify-items: center;
+	margin: 3%;
+	padding: 2%;
+	background-color: green;
+}
+button:hover {
+	background-color: yellow;
+	color: blue;
+}
+.subscribe {
+    display: block;
+}
+.contact {
+    display: flex;
+    font-size: large;
+    text-decoration: none;
+    justify-items: baseline;
+    justify-content: space-between;
+    font-variant: normal;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+}
+li a {
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.write-to-us {
+    list-style: none;
+    display: flex;
+    font-size: medium;
+    text-decoration: none;
+    justify-items: baseline;
+    justify-content: space-between;   
+}
+.map>a {
+    text-decoration: none;
+}
+.write-to-us>div>ul>li {
+    list-style: none;
+}
+input {
+    font-size: large;
+    border-style: solid;
+    border-radius: 8.5%;
+}
+select {
+    font-size: large;
+}
+.socialmedia {
+    display: flex;
+    justify-content: baseline;
+    justify-content: space-between;
+    font-size: x-large;
+    text-decoration: none;
+    font-variant: normal;
+}
+.whatsapp>a {
+    color: #23c523
+}
+.facebook>a {
+    color: blue;
+}
+.x>a {
+    color: blue;
+}
+.instagram>a {
+    color: rgb(168, 48, 48);
+}
+.linkedin>a {
+    color: rgb(40, 40, 190);
+}
+ul {
+	list-style: none;
+}
+@media screen and (min-width:600px) and (max-width: 1200px) {
+	body {
+	display: flex;
+	background-color: inherit;
+	flex-direction: column;
+	flex-wrap: wrap;
+	}
+	}
+@media screen and (min-width:600px) and (max-width: 1200px) {
+.about-section {
+display: flex;
+background-color: inherit;
+flex-direction: column;
+flex-wrap: wrap;
+}
+}

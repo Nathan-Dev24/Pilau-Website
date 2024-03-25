@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+	max-height: 100%;
+}
+body {
+	background-color: orange;
+	font-size: x-large;
+}
+button {
+	font-size: xx-large;
+	border-style: solid;
+	border-width: thin;
+	border-color: white;
+	border-radius: 4px;
+}
+.button {
+	text-align: center;
+	display: flex;
+}
+.button>button {
+	background-color: green;
+	color: black;
+}
+a {
+	text-decoration: none;
+}
+.password {
+	text-align: justify;
+	padding-left: 10%;
+}
+.sections {
+	display: flex;
+	flex-wrap: wrap;
+	display: grid;
+	align-content: space-between;
+}
+input {
+	font-size: 80%;
+	align-content: space-between;
+}
+.submit {
+	font-size: x-large;
+	align-content: space-between;
+}
+a {
+	list-style: none;
+	padding: 10%;
+}

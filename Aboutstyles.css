@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	font-size: xx-large;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 6px;
+	padding-top: 0%;
+	margin: 1%;
+}
+@media screen and (min-width:600px) and (max-width: 1200px) {
+	body {
+	display: flex;
+	background-color: inherit;
+	flex-direction: column;
+	flex-wrap: wrap;
+	}
+	}
+@media screen and (min-width:600px) and (max-width: 1200px) {
+.about-section {
+display: flex;
+background-color: inherit;
+flex-direction: column;
+flex-wrap: wrap;
+}
+}
+img {
+	width: 100%;
+	height: auto;
+}
+.about-intro {
+	background-color: brown;
+}
+.head {
+	box-decoration-break: 10%;
+	box-sizing: border-box;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 6px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+ border-radius: 10px;
+}
+.about-paragraphs {
+	background-image: url(https://media.istockphoto.com/id/1625128632/photo/most-common-allergy-food-shot-from-above.jpg?s=612x612&w=0&k=20&c=vbbkNVRpHv-X4sIKJzaK1yYRCmzE-CgnuWE98wlN_vU=);
+	background-attachment: fixed;
+	background-size: contain;
+	background-color: brown;
+	color: whitesmoke;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 15px;
+}
+.about-images {
+	background-image: url(https://media.istockphoto.com/id/1463371608/photo/kitchen-table-top-with-utensils-and-copy-space-on-the-wall.jpg?s=612x612&w=0&k=20&c=oBdwL9aiUT37TdcpzopddiVzk5lkmZxN_ehgCLkliac=);
+	background-repeat: repeat;
+	background-color: darkgoldenrod;
+	background-size: contain;
+	background-attachment: fixed;
+	margin-bottom: 3%;
+}
+.images {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	border-color: darkgoldenrod;
+	border-radius: 6px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: justify;
+	margin-bottom: 3%;
+}
+.image1 {
+	border-style: solid;
+	border-width: thick;
+	border-radius: 6px;
+	border-color: sandybrown;
+	box-shadow: chocolate;
+}
+.image1 :hover {
+	background-color: orange;
+	color: white;
+}
+button {
+	background-color: green;
+font-size: 70%;
+justify-content: baseline;
+justify-content: center;
+padding: 4%;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 5;
+margin-bottom: 5%;
+color: green;
+border-style: solid;
+border-color: white;
+border-radius: 8px;
+}
+button>a {
+	text-decoration: none;
+}
+button :hover {
+background-color: gold;
+color: yellow;
+}
+.ul-footer {
+	list-style: none;
+	padding: 10%;
+}
+a {
+	list-style: none;
+	padding: 10%;
+}

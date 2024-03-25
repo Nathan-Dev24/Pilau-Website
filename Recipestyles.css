@@ -1,0 +1,74 @@
+body {
+	background-color:orange;
+	font-size: larger;
+	text-align: justify;
+	padding: 0;
+	padding-bottom: 1%;
+}
+h1 {
+text-align: center;
+border-style: solid;
+border-radius: 8px;
+padding: 3%;
+margin-left: 2%;
+margin-right: 2%;
+}
+.pheader {
+	text-align: justify;
+	font-size: x-large ;
+	color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.section {
+background-color: white;
+	border-style: solid;
+	border-width: thick;
+	border-color: navajowhite;
+	border-radius: 4px;
+}
+.division-recipes {
+display: flex;
+justify-content: space-between;
+padding: 2%;
+}
+.divisions {
+	border-style: solid;
+border-width: thick;
+border-color:transparent;
+border-color:olive;
+}
+.images {
+padding-top: 0%;
+margin-top: 0%;
+	color: yellow;
+}
+.divisions:hover {
+	background-color: orange;
+	color: white;
+}
+button {
+	font-size: large;
+	justify-items: center;
+	margin: 3%;
+	padding: 2%;
+	background-color: green;
+}
+button:hover {
+	background-color: yellow;
+	color: blue;
+}
+ul {
+	list-style: none;
+}
+a {
+	list-style: none;
+	padding: 10%;
+}
+@media screen and (min-width:768px) and (max-width: 1200px) {
+	body {
+	display: flex;
+	flex-flow: column;
+	flex-wrap: wrap;
+}
+	}

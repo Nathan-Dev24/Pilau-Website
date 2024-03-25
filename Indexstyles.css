@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+body {
+background-color: #e4b359;
+height: 80vh;
+padding: 1%;
+margin: 0%;
+flex-wrap: wrap;
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    box-sizing: content-box;
+    box-decoration-break: slice;
+    box-shadow: rgb(36, 34, 34,0);
+    width: 100%;
+    height: auto;
+}
+.header1 {
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    border-radius: 6px;
+    position: 0% 100%;
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+}
+ul {
+list-style: none;
+padding-left: 10%;
+}
+.nav-links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-links ul {
+    display: flex;
+    gap: 25px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.nav-links>ul>li:hover {
+    background: #ffa500;
+    color: black;
+}
+.linksa>a {
+    color:#ffa500;
+ } 
+ .linksa>a>i {
+    color:#ffa500;
+ } 
+ .linksa>a>i:hover {
+    background-color: #ffa500;
+    color: white;
+ }
+ #price>a {
+    color: white;
+ }
+ #home-hover {
+    background-color: #ffa500;
+ }
+.linksah#home-hover>a {
+    color: black;
+}
+#home-hover>a:hover {
+    background-color: white;
+    color: #ffa500;
+}
+#home-hover:hover {
+    background-color: white;
+    color: #ffa500;
+}
+ .linksah>a {
+    color: white;
+    padding: 0%;
+    margin: 0%; 
+ }
+ #linksah>a {
+    color: white;
+    padding: 0%;
+    margin: 0%; 
+ }
+ .hr1 {
+    padding: 0%;
+    margin: 0%;
+    display: inline-flex;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+ }
+header h2 {
+    font-size: 28px;
+}
+header span {
+    color:#ffa500 
+}
+section span {
+    color:#ffa500 
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    align-items: first baseline;
+}
+.homepage {
+    background-image: url(https://media.istockphoto.com/id/1194237296/photo/the-concept-of-uzbek-cuisine-eastern-pilaf-in-a-cast-iron-pan-background-image-copy-space-top.jpg?s=612x612&w=0&k=20&c=r88oLsXETbjzJJmySvCQcu89O1TQ2WdWib68BCBeRu8=);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 16px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 12px;
+    color: white;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    height: 600px;
+}
+.homeh>h2 {
+    padding-left: 40%;
+    padding-right: 25%;
+    font-size: xx-large;
+}
+.homepage h1 {
+    font-size: x-large;
+}
+.homepage p {
+    font-size: x-large;
+}
+button {
+    font-size: large;
+    padding: 2%;
+}
+.homepage.buttons {
+    gap: 2rem;
+}
+.homepage.buttons.order1 {
+    border: none;
+    outline: none;
+}
+.order1 {
+    background-color: #ffa500;
+    font-size: 20px;
+    border:none;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.order2 {
+    background-color: transparent;
+    border : white;
+    font-size: 20px;
+    border-style: solid;
+    border-width: thin;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+button.order1:hover {
+   background-color:white;
+   color: #ffa500;
+}
+button.order2:hover {
+    background-color: #ffa500;
+    color: white;
+}
+.menu {
+    display: inline-block;
+    text-align: justify;
+    font-size: medium;
+}
+@media screen and (min-width: 600) and (max-width: 1200) {
+    .header1 + .nav-links{
+        display: flex;
+        background-color: #e2dfda;
+        flex-wrap: wrap;
+    }
+}
